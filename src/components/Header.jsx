@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link dari react-router-dom
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -8,17 +9,19 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-black border-b border-gray-700">
+    <header className="bg-blue-900 text-white sticky top-0 z-50">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex-shrink-0">
-            <a href="#" title="" className="flex">
+            <Link to="/" title="Home" className="flex">
+              {" "}
+              {/* Ganti a dengan Link */}
               <img
                 className="w-auto h-8 lg:h-10"
                 src="https://appmadrasah.kemenag.go.id/__statics/img/logo.png"
                 alt="Logo"
               />
-            </a>
+            </Link>
           </div>
 
           <button
@@ -43,33 +46,33 @@ export default function Header() {
           </button>
 
           <div className="hidden md:flex md:items-center md:space-x-10">
-            <a
-              href="#"
+            <Link
+              to="/"
               className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
-              Features
-            </a>
+              Home
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/profile"
               className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
-              Solutions
-            </a>
+              Profile
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/resources"
               className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
               Resources
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/pricing"
               className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
               Pricing
-            </a>
+            </Link>
           </div>
         </nav>
 
@@ -101,33 +104,33 @@ export default function Header() {
           </button>
 
           <nav className="flex flex-col items-center mt-10 space-y-2">
-            <a
-              href="#"
+            <Link
+              to="/features"
               className="py-2 font-medium text-white transition-all duration-200 focus:text-opacity-70"
             >
               Features
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/solutions"
               className="py-2 font-medium text-white transition-all duration-200 focus:text-opacity-70"
             >
               Solutions
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/resources"
               className="py-2 font-medium text-white transition-all duration-200 focus:text-opacity-70"
             >
               Resources
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/pricing"
               className="py-2 font-medium text-white transition-all duration-200 focus:text-opacity-70"
             >
               Pricing
-            </a>
+            </Link>
           </nav>
         </nav>
       </div>
