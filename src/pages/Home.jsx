@@ -1,4 +1,5 @@
 import NewsAndAnnouncements from "../ui/BeritaPengumuman";
+import Faq from "../ui/Faq";
 import HeroSection from "../ui/HeroSection";
 import SchoolCalendar from "../ui/KalenderSekolah";
 import Profile from "../ui/ProfileSekolah";
@@ -12,6 +13,7 @@ export default function Home() {
       <AcademicProgram />
       <SchoolCalendar />
       <NewsAndAnnouncements />
+      <Faq />
     </div>
   );
 }
