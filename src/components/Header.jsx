@@ -61,17 +61,23 @@ export default function Header() {
             </Link>
 
             <Link
-              to="/resources"
+              to="/Program"
               className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
-              Resources
+              Program
             </Link>
 
             <Link
-              to="/pricing"
+              to="/kalender"
               className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
-              Pricing
+              Kalender
+            </Link>
+            <Link
+              to="/pengumuman"
+              className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
+            >
+              Pengumuman
             </Link>
           </div>
         </nav>
