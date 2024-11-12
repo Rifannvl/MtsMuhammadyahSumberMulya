@@ -3,18 +3,18 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <section class="py-12 bg-black">
+      <section class="py-12 bg-blue-900 text white">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div class="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
             <div class="xl:flex xl:items-center xl:justify-start">
               <img
                 class="w-auto mx-auto h-7"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/logo-alt-2.svg"
+                src="https://appmadrasah.kemenag.go.id/__statics/img/logo.png"
                 alt=""
               />
 
               <p class="mt-5 text-sm text-white xl:ml-6 xl:mt-0">
-                © Copyright 2021 Postcraft
+                © Copyright 2024 MTs Muhammadiyah Sumber Mulya.
               </p>
             </div>
 
