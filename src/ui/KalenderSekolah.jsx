@@ -1,12 +1,16 @@
 import React from "react";
+import Calendar2025 from "../components/Kalender2025";
 
 const SchoolCalendar = () => {
   return (
     <div className="bg-gray-50 font-poppins">
       {/* Header */}
-      <header className="bg-black text-white py-4">
+      <header className="bg-blue-900 text-white py-6">
         <div className="container mx-auto text-center">
-          <h1 className="text-2xl font-semibold">Kalender Sekolah</h1>
+          <h1 className="text-3xl font-semibold">Kalender Sekolah</h1>
+          <p className="mt-2 text-lg">
+            Informasi Penting Tahun Ajaran [Tahun Ajaran]
+          </p>
         </div>
       </header>
 
@@ -22,7 +26,7 @@ const SchoolCalendar = () => {
 
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Jadwal Liburan */}
-            <div className="bg-white shadow-md rounded-lg p-6">
+            <div className="bg-white shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:shadow-2xl">
               <h3 className="text-2xl font-semibold text-gray-800">Liburan</h3>
               <ul className="mt-4 text-gray-700">
                 <li>
@@ -39,7 +43,7 @@ const SchoolCalendar = () => {
             </div>
 
             {/* Jadwal Ujian */}
-            <div className="bg-white shadow-md rounded-lg p-6">
+            <div className="bg-white shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:shadow-2xl">
               <h3 className="text-2xl font-semibold text-gray-800">
                 Jadwal Ujian
               </h3>
@@ -61,7 +65,7 @@ const SchoolCalendar = () => {
             </div>
 
             {/* Kegiatan Penting */}
-            <div className="bg-white shadow-md rounded-lg p-6">
+            <div className="bg-white shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:shadow-2xl">
               <h3 className="text-2xl font-semibold text-gray-800">
                 Kegiatan Penting
               </h3>
@@ -86,77 +90,7 @@ const SchoolCalendar = () => {
         </section>
 
         {/* Kalender Bulanan */}
-        <section id="kalender-bulanan" className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-800">Kalender Bulanan</h2>
-          <div className="mt-4 bg-white shadow-md rounded-lg p-6">
-            <h3 className="text-2xl font-semibold text-gray-800">
-              Januari 2024
-            </h3>
-            <div className="mt-4">
-              {/* Kalender Bulanan */}
-              <table className="min-w-full table-auto text-left">
-                <thead>
-                  <tr className="bg-gray-800 text-white">
-                    <th className="py-2 px-4">Senin</th>
-                    <th className="py-2 px-4">Selasa</th>
-                    <th className="py-2 px-4">Rabu</th>
-                    <th className="py-2 px-4">Kamis</th>
-                    <th className="py-2 px-4">Jumat</th>
-                    <th className="py-2 px-4">Sabtu</th>
-                    <th className="py-2 px-4">Minggu</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="py-2 px-4">1</td>
-                    <td className="py-2 px-4">2</td>
-                    <td className="py-2 px-4">3</td>
-                    <td className="py-2 px-4">4</td>
-                    <td className="py-2 px-4">5</td>
-                    <td className="py-2 px-4">6</td>
-                    <td className="py-2 px-4">7</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2 px-4">8</td>
-                    <td className="py-2 px-4">9</td>
-                    <td className="py-2 px-4">10</td>
-                    <td className="py-2 px-4">11</td>
-                    <td className="py-2 px-4">12</td>
-                    <td className="py-2 px-4">13</td>
-                    <td className="py-2 px-4">14</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2 px-4">15</td>
-                    <td className="py-2 px-4">16</td>
-                    <td className="py-2 px-4">17</td>
-                    <td className="py-2 px-4">18</td>
-                    <td className="py-2 px-4">19</td>
-                    <td className="py-2 px-4">20</td>
-                    <td className="py-2 px-4">21</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2 px-4">22</td>
-                    <td className="py-2 px-4">23</td>
-                    <td className="py-2 px-4">24</td>
-                    <td className="py-2 px-4">25</td>
-                    <td className="py-2 px-4">26</td>
-                    <td className="py-2 px-4">27</td>
-                    <td className="py-2 px-4">28</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2 px-4">29</td>
-                    <td className="py-2 px-4">30</td>
-                    <td className="py-2 px-4">31</td>
-                    <td className="py-2 px-4"></td>
-                    <td className="py-2 px-4"></td>
-                    <td className="py-2 px-4"></td>
-                    <td className="py-2 px-4"></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
+        <Calendar2025 />
       </main>
     </div>
   );
