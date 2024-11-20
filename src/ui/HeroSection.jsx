@@ -7,7 +7,7 @@ export default function HeroSection() {
         <div class="absolute inset-0">
           <img
             class="object-cover w-full h-full md:object-left md:scale-150 md:origin-top-left"
-            src="https://scontent.fsoc1-2.fna.fbcdn.net/v/t39.30808-6/454953501_365582583250143_4663997233196731014_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeED5CapRnZgMSyk4COat6xxOuqJhebOYWo66omF5s5hapuQ1cJCi-bAJ99KTS0mMP2ejebAppIfyep2nQe5JlmE&_nc_ohc=T5kNo_KO61YQ7kNvgHt1LxG&_nc_zt=23&_nc_ht=scontent.fsoc1-2.fna&_nc_gid=Aht52I_h0FbPlbeAzoEXhaX&oh=00_AYCfcxYrJkvqaJo0-OciDsDrwvg5xmN0zOxT-LtEs02UFA&oe=67355568"
+            src="https://scontent.fcgk6-2.fna.fbcdn.net/v/t39.30808-6/454969617_365581616583573_1894189936253377147_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHD7Tf6BiH_-9AMc8bljinFX8-fLz_AWGVfz58vP8BYZWST2y7ZAeV7BS3SCay2A1pezRe1UJ1sTzqfmjJuDkye&_nc_ohc=HUjfcUJp1bkQ7kNvgFaicpN&_nc_zt=23&_nc_ht=scontent.fcgk6-2.fna&_nc_gid=AiKsrQdfy8ReP3PkPgfobnh&oh=00_AYARbNXqOmr9T7rxD7KEkD6xMSMy-kOW1WaUqcWOu1Qz_w&oe=6743C12C"
             alt=""
           />
         </div>
