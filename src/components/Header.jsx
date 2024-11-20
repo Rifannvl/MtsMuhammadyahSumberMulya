@@ -111,31 +111,37 @@ export default function Header() {
 
           <nav className="flex flex-col items-center mt-10 space-y-2">
             <Link
-              to="/features"
-              className="py-2 font-medium text-white transition-all duration-200 focus:text-opacity-70"
+              to="/"
+              className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
-              Features
+              Home
             </Link>
 
             <Link
-              to="/solutions"
-              className="py-2 font-medium text-white transition-all duration-200 focus:text-opacity-70"
+              to="/profile"
+              className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
-              Solutions
+              Profile
             </Link>
 
             <Link
-              to="/resources"
-              className="py-2 font-medium text-white transition-all duration-200 focus:text-opacity-70"
+              to="/Program"
+              className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
-              Resources
+              Program
             </Link>
 
             <Link
-              to="/pricing"
-              className="py-2 font-medium text-white transition-all duration-200 focus:text-opacity-70"
+              to="/kalender"
+              className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
-              Pricing
+              Kalender
+            </Link>
+            <Link
+              to="/pengumuman"
+              className="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
+            >
+              Pengumuman
             </Link>
           </nav>
         </nav>
